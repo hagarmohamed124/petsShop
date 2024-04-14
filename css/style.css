@@ -1,0 +1,612 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 16px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-transform: capitalize;
+}
+
+
+@font-face {
+	font-family: "webfonts";
+	src: url("../webfonts/satisfy.ttf") format('ttf'),
+		url("../webfonts/satisfy.woff") format('woff'),
+		url("../webfonts/satisfy.woff2") format('woff2'),
+}
+
+.container{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+
+
+
+
+
+body>header {
+	background-color: RGBA(0,0,0,0.8);
+	margin-bottom: 0;
+	padding: 10px 0;
+	position: absolute;
+	left: 0;
+	top:0;
+	width: 100%;
+}
+
+body>header  h3 {
+	color: #7ab630;
+}
+
+
+body>header  h3 img {
+	height: 25px;
+}
+body>header label {
+	color: #fff;
+	border: thin #fff solid;
+	border-radius: 2px;
+	padding: 0 4px 2px;
+	cursor: pointer;
+}
+body>header div.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between; align-items: center;
+}
+
+body>header nav {
+	width: 100%;
+	margin-top: 20px;
+}
+
+#menubtn {
+	display: none;
+}
+
+#menubtn+nav{
+	display: none;
+}
+
+#menubtn:checked+nav{
+	display: block;
+}
+
+
+body>header nav a {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	text-decoration: none;
+	display: block;
+	padding: 15px 0;
+	text-align: center;
+	transition-duration: 0.6s;
+}
+
+body>header nav a:hover {
+	background-color: #f9b700;
+}
+
+
+
+
+
+
+header {
+
+    border-left: 5px solid green;
+	padding-left: 10px;
+
+}
+
+
+#sec-1 {
+
+	background: url("../img/Banner-1.jpg") no-repeat center top/cover;
+	height: 87vh;
+
+}
+
+#sec-1 div.container {
+
+	padding: 60px 0px;
+	font-weight: 500px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+
+#sec-1 div.container aside  {
+	
+ vertical-align: middle;
+}
+
+
+#sec-1 div.container aside h2 {
+	font-size: 3rem;
+
+	font-weight: 500px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+
+}
+
+#sec-1 div.container aside h3 {
+	font-size: 1.5rem;
+
+	font-weight: 500px;
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+
+}   
+
+
+
+
+
+
+
+
+.flexx{
+
+	display: flex;
+
+}
+
+p{
+	font-size: 0.9rem;
+	text-align: justify;
+	margin-bottom: 20px;
+	
+
+}
+
+
+/* Bootons */
+.btn {
+	display: inline-block;
+	
+	padding: 10px 20px;
+	color:#7ab630;
+	text-decoration: none;
+	border-radius: 20px;
+
+}
+
+h5, h1{
+	color:#7ab630
+}
+
+h1{
+	font-size: 31px;
+
+}
+
+
+
+.btn-green {
+
+	background-color:#7ab630;
+
+}
+
+
+.btn-white {
+
+	background-color: #fff;
+
+}
+
+/* sec-2 */
+
+
+
+#sec-2,
+#sec-3 {
+	background-color:#f2f2f2;
+
+
+
+}
+
+#sec-2 div.container {
+
+	padding: 60px 0px;
+
+
+}
+
+
+#sec-2 div.container img {
+	height: 81vh;
+	padding: 3px;
+
+	border: 1px solid transparent;
+    outline: 2px solid #7ab630;
+}
+
+
+
+
+
+
+
+
+#sec-2 aside div p {
+
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#pr {
+	border: 2px solid white;
+	border-radius: 10px;
+
+
+}
+
+#des {
+
+	display: flex;
+	flex-wrap: nowrap;
+
+	margin: 10px;
+
+}
+
+#des h5 {
+
+	width: 49%;
+}
+
+
+
+/* sec-3 */
+
+
+
+#sec-3 .container #desp {
+
+	margin-top: 30px;
+
+
+	margin-bottom: 15px;
+
+}
+
+
+
+.flex {
+
+	background-color: #fff;
+	border-radius: 8px;
+	margin-top: 30px;
+	padding: 25px 15px;
+	margin-bottom: 15px;
+
+}
+
+
+/* sec-4 */
+
+#sec-4 {
+background: url("../img/Banner-2.jpg") no-repeat center center/cover;
+height: 50vh;
+}
+#sec-4 div.container {
+
+	padding-top: 40px;
+}
+
+
+
+#sec-4 div.container div p{
+
+	margin-top: 20px;
+    font-weight: 400;
+}
+
+
+
+
+
+.btn-white:hover{
+
+	transform:scale(1.1,1.1);
+}
+.btn-blacK:hover{
+
+	transform:scale(1.1,1.1);
+}
+.btn-blacK{
+	vertical-align: middle;
+    background-color: #000;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+
+}
+
+
+
+  #center-btn {
+   text-align: center;
+} 
+
+#center-btn:hover {
+	transform:scale(1.1,1.1);
+ } 
+ 
+
+
+
+
+
+/* sec-5 */
+.sec-5{
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+
+.art-5{
+
+	background-color: rgb(227, 232, 234);
+    padding: 30px 0;
+	text-align: center;
+	border-radius:15px;
+	margin-top: 46px;
+}
+.art-5:hover{
+
+	transform:scale(1.1,1.1);
+}
+
+
+
+
+
+
+
+.art-p{
+
+	background-color:#7ab630;
+    height: 71px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+       
+}
+.art-5 h1{
+	padding-bottom: 15px;
+}
+
+p.art-p sup, p.art-p sub{
+	font-size: 1.1rem;
+
+}
+
+.art-5 ul{
+
+	list-style: none;
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 40px;
+}
+
+
+/* sec-6 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Smalldevices(landscapephones,576pxandup)*/
+@media(min-width:576px) {
+	.container {
+		width: 520px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+   .navbar{
+
+	  padding: 0;
+   }
+
+   .logo{
+     position:absolute;
+     top: 30px;
+	 left: 30px;
+   }
+
+   .nav-linK{
+
+	flex-direction: column;
+	width: 100%;
+	height: 100vh;
+	justify-content: center;
+	background-color: black;
+   }
+ .nav-linK li{
+    margin: 30px auto;
+ }
+ .menu{
+	
+	 margin-top: 0px;
+   }
+
+
+}
+
+/*Mediumdevices(tablets,768pxandup)*/
+@media(min-width:768px) {
+	.container {
+		width: 720px;
+	}
+
+
+	#sec-3 div.container  {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	#desp {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	#sec-3 .container #desp article.flex{
+
+		flex-basis: 40%;
+
+	}
+	.art-5{
+
+		flex-basis: 47%;
+
+	}
+
+   
+	#des-5{
+
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	
+   
+}
+
+
+
+	
+
+
+
+/*Largedevices(lap,992pxandup)*/
+@media(min-width:992px) {
+	.container {
+		width: 930px;
+	}
+
+
+	#sec-1 div.container aside p,#sec-2 div.container aside header div p {
+
+
+		width: 50%;
+	}  
+
+
+
+	#sec-1 div.container {
+		padding: 150px 0px;
+	}
+
+
+
+	#sec-2 div.container {
+
+		
+		display: flex;
+
+	}
+
+	#sec-2 div.container img {
+
+		margin-right: 110px;
+	}
+
+	#sec-3 div.container #desp {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+
+	#sec-3 .container #desp article.flex {
+
+		flex-basis: 30%;
+
+	}
+
+
+	.art-5 {
+
+		flex-basis: 30%;
+
+	}
+
+
+	#sec-4 div.container div p {
+	
+		width: 43%;
+
+
+
+
+}
+
+
+
+/*Extralargedevices(largedesktops,1200pxandup)*/
+@media(min-width:1200px) {
+	.container {
+		width: 1140px;
+	}
+
+	/* #sec-1 div.container div{
+		flex-basis: 24%;
+		 
+	  }
+   */
+
+
+
+}
+
+@media(min-width:1400px) {
+	.container {
+		width: 1340px;
+	}
+}
